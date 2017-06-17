@@ -74,35 +74,56 @@
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.service{
-    color:#fff; 
-    margin:20px;
-    padding:10px;
-    border-radius:1000px;
-    background-color:#00aff0 ;
-    font-weight:400;
+
+.our-services .our-services-background{
+    background: url("../images/test.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: initial;
 }
 
 .our-services h1{
     font-family: 'Raleway' ,cursive;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
-.our-services .row {
-    margin-bottom: 25px;
+.our-services .service{
+    color:#fff; 
+    margin:20px 25px;
+    padding:10px 20px;
+    border-radius:1000px;
+    background-color:#00aff0 ;
+    font-weight:400;
+}
+.our-services .services .service h2{
+    margin-top: 10px;
 }
 .our-services .services .service i{
-    position: relative;
-    top : -165px;
+    position: absolute;
+    top : 0px;
+    left: 100px;
     background: #00aff0;
-    width: 75px;
-    padding-top: 5px;
-    padding-bottom:  5px;
-    border-radius: 100%;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
 }
 /* contact-us section */
 
 .contact-us{
     min-height: 550px;
+}
+.contact-us .contact-us-title{
+    position: absolute;
+    z-index: 9999;
+    left: 43%;
+    right: 25%;
+}
+
+.contact-us .contact-us-title span{
+    color: #00aff0;
 }
 .contact-us .row .col-lg-6{
     padding: 0;
@@ -171,7 +192,7 @@ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 .contact-us .contact-us-left-background .contact-us-left-opacity .contact-us-form .panel-default > .panel-heading {
   color: #fff !important;
   font-weight: bold;
-  background: #80bfff; /* For browsers that do not support gradients */
+  background: #00aff0; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, #00aff0, #ffffff); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #00aff0, #ffffff); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, #00aff0, #ffffff); /* For Firefox 3.6 to 15 */
