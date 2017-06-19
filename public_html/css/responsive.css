@@ -1,6 +1,15 @@
 @media(max-width:768px) {
 /*mobile devices*/
     
+    .contact-us .contact-us-right-opacity .contact-us-info ul{
+        font-size: 16px;
+    }
+    
+    .contact-us .contact-us-title{
+        position: absolute;
+        z-index: 9999;
+        left: 32%;
+    }
 }
 @media (min-width: 768px){
 /*tablet and small laptop*/
