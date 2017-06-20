@@ -1,4 +1,16 @@
 $(document).ready(function () {
+     $('.type-it').typeIt({
+    speed: 450,
+    lifeLike: false,
+    autoStart: false,
+    cursor:false
+  });
+  $('.type-it-second').typeIt({
+    speed: 100,
+    lifeLike: false,
+    autoStart: false,
+    cursor:false
+  });
     /**************trigger nice scroll**************/
     $("html").niceScroll({
 
