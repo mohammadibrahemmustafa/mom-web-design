@@ -1,38 +1,32 @@
-.navbar{
-    border-radius: 0;
-    padding-top: 10px;
-}
-.navbar-inverse{
-    background: #777;
-    border: none;
-}
-.navbar-header {
-        float: left;
-        text-align: center;
-        width: 100%;
-    }
-.navbar-inverse .navbar-brand {
-    float:none;
-    color: #007aff;
-}
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
+.navbar-brand {
+    font-size: 24px;
 }
 
-.navbar .navbar-collapse {
-    text-align: center;
+.navbar-container {
+    padding: 20px 0 20px 0;
 }
-.navbar-nav>li>a {
-    padding-top: 5px;
-    padding-bottom: 10px;
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #fff;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
 }
-.navbar-inverse .navbar-nav li a{
-    color: #007aff;
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
 }
-.navbar-inverse .navbar-nav li a:hover,.navbar-inverse .navbar-nav li a:focus{
-    color: #f4f4f4;
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
 }
 /* 
     intrudoction section 
