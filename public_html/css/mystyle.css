@@ -147,7 +147,8 @@
     font-weight:400;
 }
 .our-services .services .service h2{
-    margin: 10px 15px 0 25px;
+    margin: 15px 10px;
+    font-size: 25px;
 }
 .our-services .services .service i{
     position: absolute;
