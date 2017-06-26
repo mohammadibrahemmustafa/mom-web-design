@@ -35,7 +35,6 @@ $(document).ready(function () {
    myNavBar.init(  [
        "header",
        "header-container",
-       "brand"
    ]);
 
    /**
@@ -44,7 +43,7 @@ $(document).ready(function () {
     */
    function offSetManager(){
 
-       var yOffset = $(".intro").height()-50;
+       var yOffset = $(".intro").height()-25;
        var currYOffSet = window.pageYOffset;
 
        if(yOffset < currYOffSet) {
@@ -67,8 +66,6 @@ $(document).ready(function () {
     * We have to do a first detectation of offset because the page
     * could be load with scroll down set.
     */
-    offSetManager();
-   
     $('.type-it').typeIt({
     speed: 450,
     lifeLike: false,
@@ -81,6 +78,8 @@ $(document).ready(function () {
     autoStart: false,
     cursor:false
   });
+  offSetManager();
+    
     /**************trigger nice scroll**************/
     $("html").niceScroll({
 
