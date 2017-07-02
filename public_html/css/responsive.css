@@ -16,7 +16,16 @@
        color: #00aff0;
        font-size: 25px;
    }
-   
+   .our-team .person .person-image{
+       width: 75%;
+   } 
+   .our-team .person .person-image:hover .contact-with-person{
+       bottom: 12px;
+   } 
+.our-services .services .service h2{
+    margin: 15px 10px;
+    font-size: 18px;
+}
 .our-services .services .service i{
     top : -15px;
     left: 100px;

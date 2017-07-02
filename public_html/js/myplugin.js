@@ -78,6 +78,34 @@ $(document).ready(function () {
     autoStart: false,
     cursor:false
   });
+  var service =$('.service');
+  var serviceHieght=service.outerHeight(); 
+  
+  service.hover(
+    function () {
+        $(this).animate(
+              {
+                  height : '150px'
+              },500,function (){
+                var p= $(this).children("p");
+                if (p) {
+                    p.fadeToggle(250);
+                }
+                
+              }
+          );
+    }, 
+    function () {
+                var p= $(this).children("p");
+                if (p) {
+                    p.fadeToggle(250);
+                }
+                $(this).animate({
+                  height : serviceHieght+'px' 
+               });
+    }
+);
+
   offSetManager();
     
     /**************trigger nice scroll**************/
